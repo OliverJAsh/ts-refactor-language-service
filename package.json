@@ -1,0 +1,15 @@
+{
+  "name": "ts-refactor-language-service",
+  "private": true,
+  "scripts": {
+    "compile": "rm -rf ./target/ && tsc",
+    "start": "npm run compile && node --require source-map-support/register ./target/index.js",
+    "format": "prettier --write './**/*.{ts,tsx,js,json,md}' '.prettierrc'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "source-map-support": "^0.5.19",
+    "typescript": "^3.9.6"
+  }
+}

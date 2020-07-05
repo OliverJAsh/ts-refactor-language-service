@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES2016",
+        "strict": true,
+
+        // TODO:
+        "strictNullChecks": false,
+        "strictFunctionTypes": false,
+
+        // TODO:
+        // "noImplicitReturns": true,
+
+        "sourceMap": true,
+        "outDir": "./target/",
+        "rootDir": "./src/"
+    },
+    "files": ["./src/index.ts"]
+}
